@@ -4,7 +4,7 @@
 
 ## What is this app?
 
-This is a simple to-do list app made using **[this tutorial](https://egghead.io/blog/building-a-crud-app-with-react-and-local-storage)**, in order to help myself learn how to use React.js. Whenever I came across a concept I was unfamiliar with, I would look ask questions to **(ChatGPT)[https://chat.openai.com/chat]**. As a total beginner, this meant looking up pretty much everything specific to React - props, hooks, components, useState/useEffect and so forth. 
+This is a simple to-do list app made using **[this tutorial](https://egghead.io/blog/building-a-crud-app-with-react-and-local-storage)**, in order to help myself learn how to use React.js. Whenever I came across a concept I was unfamiliar with, I would look ask questions to **[ChatGPT](https://chat.openai.com/chat)**. As a total beginner, this meant looking up pretty much everything specific to React - props, hooks, components, useState/useEffect and so forth. 
 
 Incidentally, this was the first time I'd used ChatGPT for something like this, and it proved much more helpful than my standard method of looking for specific answers over various blogs and videos. I will definitely do this more often in the future, and I would recommend that others do the same.
 
