@@ -14,6 +14,15 @@ code {
 
 /* Custom CSS */
 
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #eee;
+}
 .add-form {
   margin-bottom: 40px;
 }
@@ -84,4 +93,11 @@ code {
 .editIcon {
   color: blue;
   cursor: pointer;
+}
+
+.spinnerContainer {
+  margin: 20% auto;
+  max-width: 15%;
+  display: flex;
+  justify-content: center;
 }
