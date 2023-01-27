@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# react-test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### There is no live website for this app.
 
-## Available Scripts
+## What is this app?
 
-In the project directory, you can run:
+This is a simple to-do list app made using **[this tutorial](https://egghead.io/blog/building-a-crud-app-with-react-and-local-storage)**, in order to help myself learn how to use React.js. Whenever I came across a concept I was unfamiliar with, I would look ask questions to **(ChatGPT)[https://chat.openai.com/chat]**. As a total beginner, this meant looking up pretty much everything specific to React - props, hooks, components, useState/useEffect and so forth. 
 
-### `yarn start`
+Incidentally, this was the first time I'd used ChatGPT for something like this, and it proved much more helpful than my standard method of looking for specific answers over various blogs and videos. I will definitely do this more often in the future, and I would recommend that others do the same.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://user-images.githubusercontent.com/92999775/215048253-9a1452d5-99df-46ca-ae5b-818b608c9d39.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Aim
 
-### `yarn test`
+My main aim when creating this app was to get a general grasp of React in preparation for a coding test. While I would have liked to have spent a  little more time learning, when making this app speed was an issue, and the priority was to get something functional up as soon as possible in order to move on to more bespoke projects.
+I chose this particular tutorial for a few reasons:
+- It enabled me to create an entire app, start to finish, in a relatively short space of time.
+- It assumed that I had prior knowledge of JavaScript
+- The result was a functional, useful CRUD app (rather than, for example, an over-simplified game of noughts and crosses).
+- The app made use of localstorage, which I hadn't used previously.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Plans
 
-### `yarn build`
+I have no further plans with this specific app; it's mostly served its purpose. From here I'll move on to a new app with similar functionality, but created from scratch with no tutorial.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Main view
+![image](https://user-images.githubusercontent.com/92999775/215051110-7cc5024c-a928-4d6c-98a8-e93936fa0f15.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Add task
+![image](https://user-images.githubusercontent.com/92999775/215051360-d82b616f-374c-41fa-a513-54d8857cf691.png)
 
-### `yarn eject`
+## Delete task popup
+![image](https://user-images.githubusercontent.com/92999775/215051599-854cdf98-005c-4f5d-bb64-4dc4f7ef7467.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Edit task popup
+![image](https://user-images.githubusercontent.com/92999775/215051819-4ce81e2b-90a2-4231-8bfa-3b17c2308d85.png)
