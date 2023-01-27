@@ -20,14 +20,13 @@ code {
   overflow: auto;
   min-height: 300px;
   padding: 30px;
-  border-radius: 5px;
-  background-color: #eee;
 }
 .add-form {
   margin-bottom: 40px;
 }
 .form-control {
   margin: 20px 0;
+  border: none;
 }
 .form-control label {
   display: block;
@@ -61,7 +60,8 @@ code {
 }
 .btn-block {
   display: block;
-  width: 100%;
+  width: 80%;
+  margin: 40px auto;
 }
 
 .header {
@@ -71,18 +71,27 @@ code {
   margin-bottom: 20px;
 }
 .app-header {
-  font-family: "Josefin Sans", sans-serif;
+  font-weight: 800;
 }
 
 .task {
-  background: #f4f4f4;
   margin: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 5px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
   display: flex;
+  gap: 10px;
   justify-content: space-between;
 }
+
+.task p {
+  margin-bottom: 0;
+}
+
+.taskButtons {
+  display: flex;
+  gap: 8px;
+}
+
 .textBold {
   font-weight: bold;
 }
@@ -100,4 +109,53 @@ code {
   max-width: 15%;
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .spinnerContainer {
+    margin: 250px auto 0 auto;
+    max-width: 30%;
+  }
+}
+@media (max-width: 480px) {
+  .task {
+    flex-direction: column;
+  }
+
+  .taskButtons {
+    justify-content: flex-end;
+  }
+}
+@media (max-width: 425px) {
+  .container {
+    max-width: 90%;
+  }
+  .spinnerContainer {
+    margin: 250px auto 0 auto;
+    max-width: 40%;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    max-width: 95%;
+  }
+  .app-header {
+    font-size: 20px;
+  }
+  .spinnerContainer {
+    margin: 250px auto 0 auto;
+    max-width: 45%;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    max-width: 95%;
+  }
+  .app-header {
+    font-size: 18px;
+  }
+  .spinnerContainer {
+    margin: 250px auto 0 auto;
+    max-width: 50%;
+  }
 }

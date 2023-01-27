@@ -8,8 +8,8 @@ const Header = ({ showForm, changeTextAndColour }) => {
       <h2 className="app-header">Task Manager App</h2>
       <Button
         onClick={showForm}
-        colour={changeTextAndColour ? "red" : "green"}
-        text={changeTextAndColour ? "Close" : "Add"}
+        colour={changeTextAndColour ? "#ff4444" : "forestgreen"}
+        text={changeTextAndColour ? "Close Form" : "Add Task"}
       />
     </header>
   )

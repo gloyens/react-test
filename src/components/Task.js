@@ -12,12 +12,12 @@ const Task = ({ task, onDelete, onEdit }) => {
         <p className='taskDate'>
           <span className='textBold'>Date of Completion:</span> {task.day}
         </p>
+        <div className="taskButtons">
+          <p><FaPencilAlt onClick={() => onEdit(task.id)} className='editIcon' /></p>
+          <p><FaTimes onClick={() => onDelete(task.id)} className='delIcon' /></p>
+        </div>
       </div>
 
-      <div>
-        <p><FaTimes onClick={() => onDelete(task.id)} className='delIcon' /></p>
-        <p><FaPencilAlt onClick={() => onEdit(task.id)} className='editIcon' /></p>
-      </div>
     </div>
   )
 }
